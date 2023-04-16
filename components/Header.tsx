@@ -7,11 +7,14 @@ const Header = () => {
         <Link href="/">Adventure Helper</Link>
       </div>
       <nav className="header__nav">
-        <Link href="/tips" className="header__nav-item">
-          Tips
+        <Link href="/feed" className="header__nav-item">
+          For you
         </Link>
         <Link href="/about" className="header__nav-item">
           About
+        </Link>
+        <Link href="/account" className="header__nav-item">
+          Your Account
         </Link>
       </nav>
     </header>
